@@ -25,7 +25,7 @@ $ npm install fom --save
 ## Usage
 
 ```js
-let fom = require('fom')
+const fom = require('fom')
 ```
 
 ## License

@@ -1,0 +1,49 @@
+{
+  "name": "fom-react",
+  "version": "0.0.1",
+  "description": "A react form system built upon ant-design.",
+  "main": "index.js",
+  "scripts": {
+    "test": "rc-tools run test",
+    "build": "rc-tools run build",
+    "gh-pages": "rc-tools run gh-pages",
+    "start": "rc-tools run server",
+    "pub": "rc-tools run update-self && rc-tools run pub",
+    "lint": "rc-tools run lint",
+    "karma": "rc-tools run karma",
+    "saucelabs": "rc-tools run saucelabs",
+    "chrome-test": "rc-tools run chrome-test",
+    "coverage": "rc-tools run coverage",
+    "prepublish": "rc-tools run guard"
+  },
+  "config": {
+    "port": 8000
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kaelzhang/fom.git"
+  },
+  "keywords": [
+    "fom",
+    "react",
+    "form",
+    "validation",
+    "component",
+    "react-component"
+  ],
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "author": "kaelzhang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kaelzhang/fom/issues"
+  },
+  "devDependencies": {
+  },
+  "dependencies": {
+    "classnames": "^2.2.5",
+    "react": "^15.3.1",
+    "react-addons-shallow-compare": "^15.3.1"
+  }
+}
